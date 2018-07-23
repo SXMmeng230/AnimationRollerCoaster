@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1851472105758E003B02B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1851462105758E003B02B5 /* AppDelegate.m */; };
+		AA18514A2105758E003B02B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1851492105758E003B02B5 /* ViewController.m */; };
+		AA18514D2105758E003B02B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA18514B2105758E003B02B5 /* Main.storyboard */; };
+		AA18514F21057590003B02B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA18514E21057590003B02B5 /* Assets.xcassets */; };
+		AA18515221057590003B02B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA18515021057590003B02B5 /* LaunchScreen.storyboard */; };
+		AA18515521057590003B02B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA18515421057590003B02B5 /* main.m */; };
+		AA18515F21057590003B02B5 /* AnimationRollerCoasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA18515E21057590003B02B5 /* AnimationRollerCoasterTests.m */; };
+		AA18516A21057590003B02B5 /* AnimationRollerCoasterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA18516921057590003B02B5 /* AnimationRollerCoasterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA18515B21057590003B02B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA18513A2105758E003B02B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA1851412105758E003B02B5;
+			remoteInfo = AnimationRollerCoaster;
+		};
+		AA18516621057590003B02B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA18513A2105758E003B02B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA1851412105758E003B02B5;
+			remoteInfo = AnimationRollerCoaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA1851422105758E003B02B5 /* AnimationRollerCoaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationRollerCoaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1851452105758E003B02B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA1851462105758E003B02B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA1851482105758E003B02B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA1851492105758E003B02B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA18514C2105758E003B02B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA18514E21057590003B02B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA18515121057590003B02B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA18515321057590003B02B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA18515421057590003B02B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA18515A21057590003B02B5 /* AnimationRollerCoasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationRollerCoasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA18515E21057590003B02B5 /* AnimationRollerCoasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationRollerCoasterTests.m; sourceTree = "<group>"; };
+		AA18516021057590003B02B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA18516521057590003B02B5 /* AnimationRollerCoasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationRollerCoasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA18516921057590003B02B5 /* AnimationRollerCoasterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationRollerCoasterUITests.m; sourceTree = "<group>"; };
+		AA18516B21057590003B02B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA18513F2105758E003B02B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA18515721057590003B02B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA18516221057590003B02B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1851392105758E003B02B5 = {
+			isa = PBXGroup;
+			children = (
+				AA1851442105758E003B02B5 /* AnimationRollerCoaster */,
+				AA18515D21057590003B02B5 /* AnimationRollerCoasterTests */,
+				AA18516821057590003B02B5 /* AnimationRollerCoasterUITests */,
+				AA1851432105758E003B02B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1851432105758E003B02B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1851422105758E003B02B5 /* AnimationRollerCoaster.app */,
+				AA18515A21057590003B02B5 /* AnimationRollerCoasterTests.xctest */,
+				AA18516521057590003B02B5 /* AnimationRollerCoasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1851442105758E003B02B5 /* AnimationRollerCoaster */ = {
+			isa = PBXGroup;
+			children = (
+				AA1851452105758E003B02B5 /* AppDelegate.h */,
+				AA1851462105758E003B02B5 /* AppDelegate.m */,
+				AA1851482105758E003B02B5 /* ViewController.h */,
+				AA1851492105758E003B02B5 /* ViewController.m */,
+				AA18514B2105758E003B02B5 /* Main.storyboard */,
+				AA18514E21057590003B02B5 /* Assets.xcassets */,
+				AA18515021057590003B02B5 /* LaunchScreen.storyboard */,
+				AA18515321057590003B02B5 /* Info.plist */,
+				AA18515421057590003B02B5 /* main.m */,
+			);
+			path = AnimationRollerCoaster;
+			sourceTree = "<group>";
+		};
+		AA18515D21057590003B02B5 /* AnimationRollerCoasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA18515E21057590003B02B5 /* AnimationRollerCoasterTests.m */,
+				AA18516021057590003B02B5 /* Info.plist */,
+			);
+			path = AnimationRollerCoasterTests;
+			sourceTree = "<group>";
+		};
+		AA18516821057590003B02B5 /* AnimationRollerCoasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA18516921057590003B02B5 /* AnimationRollerCoasterUITests.m */,
+				AA18516B21057590003B02B5 /* Info.plist */,
+			);
+			path = AnimationRollerCoasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1851412105758E003B02B5 /* AnimationRollerCoaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA18516E21057590003B02B5 /* Build configuration list for PBXNativeTarget "AnimationRollerCoaster" */;
+			buildPhases = (
+				AA18513E2105758E003B02B5 /* Sources */,
+				AA18513F2105758E003B02B5 /* Frameworks */,
+				AA1851402105758E003B02B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationRollerCoaster;
+			productName = AnimationRollerCoaster;
+			productReference = AA1851422105758E003B02B5 /* AnimationRollerCoaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA18515921057590003B02B5 /* AnimationRollerCoasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA18517121057590003B02B5 /* Build configuration list for PBXNativeTarget "AnimationRollerCoasterTests" */;
+			buildPhases = (
+				AA18515621057590003B02B5 /* Sources */,
+				AA18515721057590003B02B5 /* Frameworks */,
+				AA18515821057590003B02B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA18515C21057590003B02B5 /* PBXTargetDependency */,
+			);
+			name = AnimationRollerCoasterTests;
+			productName = AnimationRollerCoasterTests;
+			productReference = AA18515A21057590003B02B5 /* AnimationRollerCoasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA18516421057590003B02B5 /* AnimationRollerCoasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA18517421057590003B02B5 /* Build configuration list for PBXNativeTarget "AnimationRollerCoasterUITests" */;
+			buildPhases = (
+				AA18516121057590003B02B5 /* Sources */,
+				AA18516221057590003B02B5 /* Frameworks */,
+				AA18516321057590003B02B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA18516721057590003B02B5 /* PBXTargetDependency */,
+			);
+			name = AnimationRollerCoasterUITests;
+			productName = AnimationRollerCoasterUITests;
+			productReference = AA18516521057590003B02B5 /* AnimationRollerCoasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA18513A2105758E003B02B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = sunxm;
+				TargetAttributes = {
+					AA1851412105758E003B02B5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AA18515921057590003B02B5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AA1851412105758E003B02B5;
+					};
+					AA18516421057590003B02B5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AA1851412105758E003B02B5;
+					};
+				};
+			};
+			buildConfigurationList = AA18513D2105758E003B02B5 /* Build configuration list for PBXProject "AnimationRollerCoaster" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA1851392105758E003B02B5;
+			productRefGroup = AA1851432105758E003B02B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1851412105758E003B02B5 /* AnimationRollerCoaster */,
+				AA18515921057590003B02B5 /* AnimationRollerCoasterTests */,
+				AA18516421057590003B02B5 /* AnimationRollerCoasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1851402105758E003B02B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA18515221057590003B02B5 /* LaunchScreen.storyboard in Resources */,
+				AA18514F21057590003B02B5 /* Assets.xcassets in Resources */,
+				AA18514D2105758E003B02B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA18515821057590003B02B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA18516321057590003B02B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA18513E2105758E003B02B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA18514A2105758E003B02B5 /* ViewController.m in Sources */,
+				AA18515521057590003B02B5 /* main.m in Sources */,
+				AA1851472105758E003B02B5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA18515621057590003B02B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA18515F21057590003B02B5 /* AnimationRollerCoasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA18516121057590003B02B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA18516A21057590003B02B5 /* AnimationRollerCoasterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA18515C21057590003B02B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA1851412105758E003B02B5 /* AnimationRollerCoaster */;
+			targetProxy = AA18515B21057590003B02B5 /* PBXContainerItemProxy */;
+		};
+		AA18516721057590003B02B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA1851412105758E003B02B5 /* AnimationRollerCoaster */;
+			targetProxy = AA18516621057590003B02B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA18514B2105758E003B02B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA18514C2105758E003B02B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA18515021057590003B02B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA18515121057590003B02B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA18516C21057590003B02B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA18516D21057590003B02B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA18516F21057590003B02B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationRollerCoaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.AnimationRollerCoaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA18517021057590003B02B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationRollerCoaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.AnimationRollerCoaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA18517221057590003B02B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationRollerCoasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.AnimationRollerCoasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationRollerCoaster.app/AnimationRollerCoaster";
+			};
+			name = Debug;
+		};
+		AA18517321057590003B02B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationRollerCoasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.AnimationRollerCoasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationRollerCoaster.app/AnimationRollerCoaster";
+			};
+			name = Release;
+		};
+		AA18517521057590003B02B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationRollerCoasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.AnimationRollerCoasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimationRollerCoaster;
+			};
+			name = Debug;
+		};
+		AA18517621057590003B02B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationRollerCoasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.AnimationRollerCoasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimationRollerCoaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA18513D2105758E003B02B5 /* Build configuration list for PBXProject "AnimationRollerCoaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA18516C21057590003B02B5 /* Debug */,
+				AA18516D21057590003B02B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA18516E21057590003B02B5 /* Build configuration list for PBXNativeTarget "AnimationRollerCoaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA18516F21057590003B02B5 /* Debug */,
+				AA18517021057590003B02B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA18517121057590003B02B5 /* Build configuration list for PBXNativeTarget "AnimationRollerCoasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA18517221057590003B02B5 /* Debug */,
+				AA18517321057590003B02B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA18517421057590003B02B5 /* Build configuration list for PBXNativeTarget "AnimationRollerCoasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA18517521057590003B02B5 /* Debug */,
+				AA18517621057590003B02B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA18513A2105758E003B02B5 /* Project object */;
+}
